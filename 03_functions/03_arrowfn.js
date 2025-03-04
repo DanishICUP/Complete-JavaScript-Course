@@ -31,6 +31,13 @@ const addNumber3 = (num1 , num2) => (num1 + num2)
 const objectInFunction = () => ({username : "danish"})
 
 
+const username = "danish"; 
+
+const objectInFunction2 = () => ({ username });
+
+console.log(objectInFunction2());
+
+
 console.log(addNumber(2,3))
 console.log(addNumber2(2,3));
 console.log(addNumber3(2,3));
